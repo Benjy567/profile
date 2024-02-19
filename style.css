@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(0, 65, 6);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 150%;
+}
+
+h1, h2, h3 {
+  color: rgb(161, 4, 4);
+  font-size: 35px;
+  line-height: 300%;
+}
+
+link {
+  color: rgb(0, 225, 255);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: fuchsia;
+  text-decoration: overline;
+}
+
+.container {
+  margin: 100 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card {
+  background: rgb(192, 126, 3);
+  border: 1px solid black ;
+  padding: 10px ;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black;
+}
+
+.list-inline > ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
